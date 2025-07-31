@@ -31,9 +31,9 @@ func main() {
 
 	var toolsLLM string
 	if toolsLLM = os.Getenv("TOOLS_LLM"); toolsLLM == "" {
-		// less vram
-		//toolsLLM = "llama3.1:8b"
-		toolsLLM = "devstral:24b"
+		//toolsLLM = "llama3.1:8b"  // less vram
+		//toolsLLM = "devstral:24b" // previous best
+		toolsLLM = "qwen3:30b-a3b-instruct-2507-q4_K_M"
 	}
 
 	ollamaUrl, _ := url.Parse(ollamaRawUrl)
