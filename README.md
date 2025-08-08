@@ -13,7 +13,7 @@ exploring just what you can do with commodity hardware
 
 ### Default Model
 
-- [devstral:24b](https://ollama.com/library/devstral)
+- [qwen3:30b-a3b-instruct-2507-q4_K_M](https://ollama.com/library/qwen3:30b-a3b-instruct-2507-q4_K_M)
 
 ### References
 
